@@ -29,3 +29,7 @@ console.log("\nValor da string da segunda letra até a última:", secondToEnd);
 // Retorna N caracteres a partir de uma posição
 const twoCharsBeforeFirstPos = "Texto".substr(0, 2);
 console.log("\nAs duas primeiras letras são:", twoCharsBeforeFirstPos);
+
+let filosofo = "Sócrates";
+filosofo = "Hipó" + filosofo.substr(2, 7);
+console.log(filosofo);

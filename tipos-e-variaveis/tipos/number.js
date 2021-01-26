@@ -9,7 +9,12 @@ const fixedTwoDecimals = myNumber.toFixed(2);
 console.log("\nNúmero com duas casas decimais:", fixedTwoDecimals);
 
 // Transforma uma string em float
-console.log("\nString parseada para float: ", parseFloat("13.22"));
+const floatN = parseFloat("13.20");
+console.log("\nString parseada para float: ", floatN , typeof floatN);
 
 // Transforma uma string em int
-console.log("\nString parseada para int:", parseInt("13.20"));
+const intN = parseInt("13.20");
+console.log("\nString parseada para int:", intN, typeof intN);
+
+const numeroPi = 3.1415161789;
+console.log(numeroPi.toFixed(2));
