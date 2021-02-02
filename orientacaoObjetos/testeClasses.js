@@ -1,4 +1,5 @@
 const CachorroLoco = require('./Cachorro.js');
+// import Cachorro from './Cachorro.js';
 
 const newPug = new CachorroLoco(false);
 const newPitbull = new CachorroLoco(true);
